@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+### New Developer Test: Wish List For Santa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this assignment, you must build a basic application using React and Redux that allows users to add items (strings) to a "wish list" and then submit the list (to Santa).
 
-## Available Scripts
+## Demo
+![](src/assets/demo.gif)
 
-In the project directory, you can run:
+## Requirements
+  * Clone the repository, and run `npm install` or  `yarn add` to set up your local environemnt.  When you are finished with your solution, push it to Github (please avoid including references to Halo in the repo title), and email Kevin to let him know you are finished so your work can be reviewed.
 
-### `yarn start`
+  <br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  * Items may not be blank strings nor duplicates of an item already on the list.
+  * Clicking on an item in the list should remove it from the list.
+  * Clicking the submit button should clear the wish list and create an alert that says 'Wish list submitted to Santa!'
+  * User cannot submit if their wish list is empty.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <br/>  
 
-### `yarn test`
+  * Please complete the Redux reducer in redux > reducer.jsx.  (Adding and deleting items from the list should be handled by Redux.)  Do not add any new actions, as this is a part of the challenge.
+  * Everything else regarding Redux has been done for you (i.e. store, actions, etc.) and can be found in the "redux" folder
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <br/>
 
-### `yarn build`
+  * Please give a reasonable effort to closely match the styling in the demo.  This task is meant to test your ability to create accurate, responsive components.  As a head start, the inner container's dimensions are 400px x 540px.  You do not need to worry about the font-family.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Guidelines
+  * Aside from styling and reducer.jsx, all code should be written inside of App.jsx.
+  * React hooks are preferred to class components if you are comfortable with them.  If not, that is okay, too.
+  * Use of Styled-Components is preferred, though you may use any other styling libraries (or none) that you are more comfortable with.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <br/>
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  * Make sure to write code that you would be comfortable contributing in a professional setting.  Cleanliness and maintainability are just as important as making sure that it actually works.
+  * In total, this assignment shouldn't take more than an hour or two to complete.  It's just a quick way to get a better feel for where you are at, so don't spend your entire day on it.
+  * If you get stuck, feel free to leave comments in the code explaining how you would go about completing that part instead.
